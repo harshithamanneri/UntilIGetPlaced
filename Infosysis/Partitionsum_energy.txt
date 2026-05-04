@@ -1,0 +1,11 @@
+🧠 Problem Understanding
+You are given:
+N = 5
+K = 2
+Array digits: 1 5 3 8 2
+You split into K parts (equal or nearly equal):
+Part 1 → [1, 5, 3]
+Part 2 → [8, 2]
+For each part:
+Energy = max - min
+Total energy = sum of all parts
