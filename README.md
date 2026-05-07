@@ -55,6 +55,7 @@ The goal is simple:
 | 5   | Two Sum - Pairs with 0 Sum | Easy     | [View Solution](Two%20sum%20-Pairs%20with%200%20Sum/Two%20sum%20-Pairs%20with%200%20Sum.py) |
 | 6   | Contains Duplicate       | Easy       | [View Solution](LeetCode/217.%20Contains%20Duplicate.py) |
 | 7   | Valid Anagram            | Easy       | [View Solution](LeetCode/242.%20Valid%20Anagram.py) |
+| 8   | Valid Palindrome         | Easy       | [View Solution](LeetCode/125.%20Valid%20Palindrome.py) |
 
 *(Will be updated daily)*
 
