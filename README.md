@@ -55,7 +55,8 @@ The goal is simple:
 | 5   | Two Sum - Pairs with 0 Sum | Easy     | [View Solution](Two%20sum%20-Pairs%20with%200%20Sum/Two%20sum%20-Pairs%20with%200%20Sum.py) |
 | 6   | Contains Duplicate       | Easy       | [View Solution](LeetCode/217.%20Contains%20Duplicate.py) |
 | 7   | Valid Anagram            | Easy       | [View Solution](LeetCode/242.%20Valid%20Anagram.py) |
-| 8   | Valid Palindrome         | Easy       | [View Solution](LeetCode/125.%20Valid%20Palindrome.py) || 9   | Best Time to Buy and Sell Stock | Easy | [View Solution](LeetCode/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py) |
+| 8   | Valid Palindrome         | Easy       | [View Solution](LeetCode/125.%20Valid%20Palindrome.py) |
+| 9   | Best Time to Buy and Sell Stock | Easy | [View Solution](LeetCode/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.py) |
 *(Will be updated daily)*
 
 ---
