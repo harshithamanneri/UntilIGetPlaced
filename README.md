@@ -60,6 +60,7 @@ The goal is simple:
 | 10  | Move Zeroes              | Easy       | [View Solution](LeetCode/283.%20Move%20Zeroes.py) |
 | 11  | Maximum Subarray         | Medium     | [View Solution](LeetCode/53.%20Maximum%20Subarray.py) |
 | 12  | Longest Common Prefix    | Easy       | [View Solution](LeetCode/14.%20Longest%20Common%20Prefix.py) |
+| 13  | Remove Duplicates from Sorted Array | Easy | [View Solution](LeetCode/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py) |
 *(Will be updated daily)*
 
 ---

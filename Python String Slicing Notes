@@ -1,0 +1,168 @@
+1. Basic Indexing
+
+String:
+
+s = "python"
+
+Indexes:
+
+ p  y  t  h  o  n
+ 0  1  2  3  4  5
+
+Negative indexes:
+
+ p   y   t   h   o   n
+-6  -5  -4  -3  -2  -1
+2. Access Single Character
+s[0]   # p
+s[2]   # t
+s[-1]  # n
+3. Slicing Syntax
+s[start:end]
+
+Meaning:
+
+start included
+end excluded
+
+Example:
+
+s = "python"
+
+s[0:2]
+
+Output:
+
+"py"
+
+Because:
+
+include index 0
+stop before index 2
+
+Visualization:
+
+p y t h o n
+0 1 2 3 4 5
+^---^
+4. Important Slicing Patterns
+From beginning
+s[:3]
+
+Output:
+
+"pyt"
+
+Meaning:
+
+start automatically from 0
+Till end
+s[2:]
+
+Output:
+
+"thon"
+
+Meaning:
+
+go till end
+Copy entire string
+s[:]
+
+Output:
+
+"python"
+5. MOST IMPORTANT ONE
+Remove last character
+s[:-1]
+
+Output:
+
+"pytho"
+
+Explanation:
+
+start = 0
+end = -1
+
+It means:
+
+start from beginning
+stop before last character
+
+Visualization:
+
+p y t h o n
+0 1 2 3 4 5
+^-------^
+
+This is what happened in Longest Common Prefix problem:
+
+prefix = prefix[:-1]
+
+Each time:
+
+remove last character
+
+Example:
+
+"flower"
+"flowe"
+"flow"
+"flo"
+"fl"
+
+Visualization of repeatedly shrinking a string:
+
+prefix
+k+1
+	​
+
+=prefix
+k
+	​
+
+[:−1]
+
+6. Reverse String
+s[::-1]
+
+Output:
+
+"nohtyp"
+
+Important for interviews.
+
+7. Step Size
+
+Syntax:
+
+s[start:end:step]
+
+Example:
+
+s[::2]
+
+Output:
+
+"pto"
+
+Because it jumps every 2 characters.
+
+8. Frequently Used Interview Slices
+Slice	Meaning
+s[:]	copy string
+s[::-1]	reverse
+s[:-1]	remove last char
+s[1:]	remove first char
+s[:k]	first k chars
+s[k:]	after k index
+9. Quick Memory Trick
+[start : end]
+
+Think:
+
+start included
+end excluded
+
+Very important rule.
