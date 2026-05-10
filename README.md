@@ -39,7 +39,7 @@ The goal is simple:
 ## 🛠️ Languages Used
 
 * Python
-* C++ (future)
+* C++
 * Java (future)
 
 ---
@@ -62,6 +62,13 @@ The goal is simple:
 | 12  | Longest Common Prefix    | Easy       | [View Solution](LeetCode/14.%20Longest%20Common%20Prefix.py) |
 | 13  | Remove Duplicates from Sorted Array | Easy | [View Solution](LeetCode/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py) |
 *(Will be updated daily)*
+
+---
+
+## 🔍 Basic Algorithms
+
+* Linear Search: [Python](DSA/linear_search.py)
+* Binary Search: [Python](DSA/binary_search.py) | [C++](DSA/binary_search.cpp)
 
 ---
 
