@@ -61,14 +61,10 @@ The goal is simple:
 | 11  | Maximum Subarray         | Medium     | [View Solution](LeetCode/53.%20Maximum%20Subarray.py) |
 | 12  | Longest Common Prefix    | Easy       | [View Solution](LeetCode/14.%20Longest%20Common%20Prefix.py) |
 | 13  | Remove Duplicates from Sorted Array | Easy | [View Solution](LeetCode/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py) |
+| 14  | Linear Search            | Easy       | [View Solution](DSA/linear_search.py)     |
+| 15  | Binary Search (Python)   | Easy       | [View Solution](DSA/binary_search.py)     |
+| 16  | Binary Search (C++)      | Easy       | [View Solution](DSA/binary_search.cpp)    |
 *(Will be updated daily)*
-
----
-
-## 🔍 Basic Algorithms
-
-* Linear Search: [Python](DSA/linear_search.py)
-* Binary Search: [Python](DSA/binary_search.py) | [C++](DSA/binary_search.cpp)
 
 ---
 
