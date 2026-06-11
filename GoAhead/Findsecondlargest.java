@@ -5,6 +5,13 @@ public class Findsecondlargest {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
         int n = scanner.nextInt();
+
+        if (n < 2) {
+            System.out.println("There is no second largest element.");
+            scanner.close();
+            return;
+        }
+
         int[] arr = new int[n];
         System.out.println("Enter the elements:");
         for (int i = 0; i < n; i++) {
@@ -20,9 +27,16 @@ public class Findsecondlargest {
     }
 
     public static int findSecondLargest(int[] arr) {
-        int largest = Integer.MIN_VALUE;
+        if (arr == null || arr.length < 2) {
+            return Integer.MIN_VALUE;
+        }
+
+        int largest = arr[0];
         int secondLargest = Integer.MIN_VALUE;
-        for (int num : arr) {
+
+        for (int i = 1; i < arr.length; i++) {
+            int num = arr[i];
+
             if (num > largest) {
                 secondLargest = largest;
                 largest = num;
@@ -30,6 +44,7 @@ public class Findsecondlargest {
                 secondLargest = num;
             }
         }
+
         return secondLargest;
     }
     
